@@ -1,0 +1,33 @@
+---
+---
+
+/* Background & text */
+body {
+  background-color: #fff7f8; /* very soft pastel pink */
+  color: #5a3e36;           /* gentle brown text */
+  font-family: "Helvetica", sans-serif;
+}
+
+/* Links */
+a {
+  color: #f7a8b8;  /* pastel pink links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f2c6d1; /* slightly lighter pink on hover */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #d95f72; /* soft rose for headings */
+}
+
+/* Cards or sections */
+.card, .post, .page {
+  background-color: #fff0f5; /* very light lavender/pastel accent */
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
