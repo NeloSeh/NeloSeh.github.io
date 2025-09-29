@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tlhabanelo Sehoole Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.scss" />
+  <style>
+    /* Fallback styles if SCSS not compiled */
+    body {
+      background-color: #f5f5f0; /* dirty/off-white */
+      color: #3b3a36;            /* stone */
+      font-family: "Helvetica", sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      color: #4b4a44; /* stone */
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #6b7f55; /* fatigue green */
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #8a9a6f;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #e6e5da; /* light earthy stone */
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      color: #4b4a44;
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 1em;
+      color: #3b3a36;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Tlhabanelo Sehoole</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section card">
+    <img src="images/Tlhabanelo S.jpg" alt="About Me" />
+    <p>
+      Hello! I’m Tlhabanelo Sehoole, a tech-savvy professional with experience
+      in IT configuration, web development, and retail management. I enjoy
+      building functional solutions, optimizing systems, and creating seamless
+      user experiences. I’m certified in Full-Stack Development and IT
+      support, and I’m always eager to learn and grow in technology and
+      business.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="container">
+      <div class="card project">
+        <img src="images/todo list.png" alt="Todo List Project" />
+        <p>
+          Todo List App: Built with HTML, CSS, and JavaScript to manage tasks efficiently.
+        </p>
+      </div>
+      <div class="card project">
+        <img src="images/weather.webp" alt="Weather Project" />
+        <p>
+          Weather App: Fetches real-time weather data using API integration and displays it in a user-friendly interface.
+        </p>
+      </div>
+      <div class="card project">
+        <a href="https://NeloSeh.github.io/" target="_blank" style="text-decoration:none; color:inherit;">
+          <img src="images/about me.jpg" alt="Portfolio Example" />
+          <p>
+            Portfolio Website: This responsive portfolio showcasing my projects, skills, and contact info.
+          </p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section card">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:tlhabanelosehoole@gmail.com">tlhabanelosehoole@gmail.com</a></p>
+    <p>Phone: <a href="tel:+27619415201">+27 61 941 5201</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/tlhabanelo-sehoole-29b415274" target="_blank">linkedin.com/in/tlhabanelo-sehoole-29b415274</a></p>
+    <p>GitHub: <a href="https://github.com/NeloSeh" target="_blank">github.com/NeloSeh</a></p>
+  </section>
+</body>
+</html>
